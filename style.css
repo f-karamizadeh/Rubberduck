@@ -1,0 +1,239 @@
+body{
+    font: bold 10pt "Fira Sans", sans-serif;
+}
+nav {
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    width: 30%;
+    display: inline-flex;
+   
+}
+
+.nav-left i {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url(./images/Logo.PNG) no-repeat center;
+
+}
+
+.nav-left p {
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.nav-right {
+    width: 50%;
+    display: flex;
+    justify-content:right;
+    padding-right: 20px;
+
+}
+
+ul {
+    width: 70%;
+    display: flex;
+    justify-content:space-between ; 
+    list-style: none;
+}
+
+li {
+  background-color:rgb(196, 220, 255);
+    height: 45px;
+    width: 125px;
+    border-radius: 6px;
+    text-align: center;
+    text-wrap: nowrap;
+
+}
+
+li a{
+    text-decoration: none;
+    text-justify: inter-word;
+    padding: 8px;
+    text-align: center;
+    line-height: 45px;
+    color: black;
+   
+
+}
+header {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    height: 200px;
+    background-color: rgb(215, 229, 238);
+    border-radius: 10px;
+}
+
+main{
+    
+
+    padding: 10px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+#duck {
+
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+
+}
+.text{
+    width: 450px;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(196, 220, 255);
+    height: 45px;
+    width: 125px;
+    border-radius: 5px;
+}
+.duck{
+
+    
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+   
+}
+.text p {
+
+    text-align: center;
+}
+
+#emergency {
+    background-color: rgb(215, 229, 238);
+   padding-top: 40px;
+   border-radius: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+#emergency h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.grid-container {
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+
+    
+ 
+
+}
+
+.grid-container a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.grid-item {
+    
+    background-color: rgb(196, 220, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+border-radius: 50px;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+form  textarea {
+    margin-top: 15px;
+    width: 600px;
+}
+
+form  input{
+
+    margin-top: 15px;
+    width: 400px;
+    height: 25px;
+}
+
+form  button{
+    margin: 25px;
+
+}
+
+@keyframes unblur {
+    from {
+      background-color: rgb(123, 170, 241);
+  
+    }
+    to {
+        background-color: rgb(233, 43, 10);
+    }
+  }
+
+
+button:hover {
+    background-color: rgb(123, 170, 241);
+
+}
+
+.grid-container a:hover {
+    background-color: rgb(123, 170, 241);
+    animation: unblur 1s 0s 5;
+}
+
+li:hover {
+    background-color: rgb(123, 170, 241);
+
+}
+
+
